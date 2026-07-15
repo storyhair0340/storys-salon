@@ -1,0 +1,386 @@
+{
+  "headerTop": {
+    "error": "not found: header"
+  },
+  "headerScrolled": {
+    "error": "not found: header"
+  },
+  "comps": {
+    "heroCard": {
+      "error": "not found: main section, main > div"
+    },
+    "h1": {
+      "sel": "h1",
+      "tag": "H1",
+      "classes": "",
+      "text": "More value from every benefits dollar.",
+      "fontSize": "85px",
+      "fontWeight": "500",
+      "fontFamily": "\"Montreal Neue\", sans-serif",
+      "lineHeight": "86.7px",
+      "letterSpacing": "-1.7px",
+      "color": "rgb(3, 7, 18)",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "margin": "13.6px 0px 0px",
+      "width": "525.469px",
+      "height": "260.062px",
+      "display": "block",
+      "flexDirection": "row",
+      "border": "0px solid rgb(3, 7, 18)",
+      "position": "static",
+      "opacity": "1",
+      "transition": "all",
+      "rect": {
+        "w": 525,
+        "h": 260
+      }
+    },
+    "heroSub": {
+      "error": "not found: h1 ~ p, h1 + p"
+    },
+    "ctaPrimary": {
+      "sel": "a[href*=\"demo\"], a[class*=\"primary\"]",
+      "tag": "A",
+      "classes": "tedy-overview-card no-underline",
+      "text": "Enterprise Support larger teams with configurable rules and reporting.",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "\"Montreal Neue\", sans-serif",
+      "lineHeight": "24px",
+      "color": "rgb(3, 7, 18)",
+      "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "padding": "21.6px 23.2px 20px",
+      "width": "422.406px",
+      "height": "128px",
+      "display": "grid",
+      "flexDirection": "row",
+      "alignItems": "start",
+      "gap": "13.6px",
+      "gridTemplateColumns": "44px 275.25px 29.5938px",
+      "position": "relative",
+      "opacity": "0",
+      "transform": "matrix(1, 0, 0, 1, 0, 16)",
+      "transition": "opacity 0.38s cubic-bezier(0.22, 1, 0.36, 1) 0.14s, transform 0.42s cubic-bezier(0.22, 1, 0.36, 1) 0.14s, background 0.22s 0.14s",
+      "rect": {
+        "w": 422,
+        "h": 125
+      }
+    },
+    "navLink": {
+      "error": "not found: header nav a, header a"
+    },
+    "logoRow": {
+      "sel": "[class*=\"logo\"], [class*=\"trusted\"], [class*=\"marquee\"]",
+      "tag": "SECTION",
+      "classes": "trusted-by-marquee-section trusted-by-marquee-section--wide-heading",
+      "text": "Trusted by 500+ 🇨🇦 businesses",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "\"Montreal Neue\", sans-serif",
+      "lineHeight": "24px",
+      "color": "rgb(3, 7, 18)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "padding": "32px 24px",
+      "width": "1440px",
+      "height": "168px",
+      "display": "block",
+      "flexDirection": "row",
+      "border": "0px solid rgb(3, 7, 18)",
+      "position": "static",
+      "opacity": "1",
+      "transition": "all",
+      "rect": {
+        "w": 1440,
+        "h": 168
+      }
+    }
+  },
+  "hero": [
+    {
+      "classes": "relative overflow-hidden rounded-[2.8rem] bg-[#E7D6FF]",
+      "bg": "rgb(231, 214, 255)",
+      "radius": "44.8px",
+      "pad": "0px",
+      "w": 544,
+      "h": 544,
+      "x": 140,
+      "y": 1460
+    },
+    {
+      "classes": "overflow-hidden rounded-t-[3rem] bg-[#E5D6FF] px-4 pt-16 pb-16 sm:px-6 sm:pt-20 ",
+      "bg": "rgb(229, 214, 255)",
+      "radius": "48px 48px 0px 0px",
+      "pad": "96px 24px",
+      "w": 1440,
+      "h": 784,
+      "x": 0,
+      "y": 4076
+    },
+    {
+      "classes": "relative overflow-visible rounded-[2.2rem] bg-[#F4EFE9] lg:rounded-[2.8rem]",
+      "bg": "rgb(244, 239, 233)",
+      "radius": "44.8px",
+      "pad": "0px",
+      "w": 594,
+      "h": 594,
+      "x": 774,
+      "y": 4907
+    },
+    {
+      "classes": "relative overflow-visible rounded-[2.2rem] bg-[#ECE8E1] lg:rounded-[2.8rem]",
+      "bg": "rgb(236, 232, 225)",
+      "radius": "44.8px",
+      "pad": "0px",
+      "w": 594,
+      "h": 594,
+      "x": 72,
+      "y": 5677
+    },
+    {
+      "classes": "testimonials-shell",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "57.6px 57.6px 0px 0px",
+      "pad": "152px 32px 0px",
+      "w": 1408,
+      "h": 3245,
+      "x": 16,
+      "y": 6414
+    },
+    {
+      "classes": "footer-stage mx-auto max-w-[1440px] overflow-hidden rounded-[2rem] bg-[#020202] ",
+      "bg": "rgb(2, 2, 2)",
+      "radius": "32px",
+      "pad": "48px 24px",
+      "w": 1392,
+      "h": 643,
+      "x": 24,
+      "y": 10245
+    }
+  ],
+  "buttons": [
+    {
+      "text": "🌐EN·BC",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(3, 7, 18)",
+      "radius": "999px",
+      "padding": "8px 14px",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "border": "1px solid rgb(229, 231, 235)",
+      "count": 1
+    },
+    {
+      "text": "Book a demo",
+      "bg": "rgb(253, 23, 116)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "padding": "10px 18px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(255, 255, 255)",
+      "count": 4
+    },
+    {
+      "text": "Sign in",
+      "bg": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "padding": "10px 18px",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(255, 255, 255)",
+      "count": 1
+    },
+    {
+      "text": "Watch a video",
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(3, 7, 18)",
+      "radius": "999px",
+      "padding": "10px 18px",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "border": "1px solid rgb(229, 231, 235)",
+      "count": 2
+    },
+    {
+      "text": "Discover Tedy with an expert",
+      "bg": "rgb(253, 23, 116)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "padding": "14px 20px",
+      "fontSize": "15.2px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(255, 255, 255)",
+      "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(253, 23, 116, 0.6) 0px 14px 35px -18px",
+      "count": 1
+    },
+    {
+      "text": "“Tedy helped us increase our t",
+      "bg": "rgb(235, 216, 255)",
+      "color": "rgb(3, 7, 18)",
+      "radius": "30.4px",
+      "padding": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(3, 7, 18)",
+      "count": 1
+    },
+    {
+      "text": "“Our 5 key values blend perfec",
+      "bg": "rgb(255, 241, 205)",
+      "color": "rgb(3, 7, 18)",
+      "radius": "30.4px",
+      "padding": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(3, 7, 18)",
+      "count": 2
+    },
+    {
+      "text": "“Tedy has enabled us to move f",
+      "bg": "rgb(227, 247, 214)",
+      "color": "rgb(3, 7, 18)",
+      "radius": "30.4px",
+      "padding": "0px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(3, 7, 18)",
+      "count": 1
+    },
+    {
+      "text": "Read the article from Les Affa",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(3, 7, 18)",
+      "radius": "32px",
+      "padding": "24px 20px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "border": "0px solid rgb(3, 7, 18)",
+      "count": 5
+    }
+  ],
+  "rhythm": [
+    {
+      "classes": "bg-surface px-4 pt-2 pb-10 sm:px-6 sm:pt-4",
+      "h": 686,
+      "pt": "16px",
+      "pb": "40px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 80
+    },
+    {
+      "classes": "trusted-by-marquee-section trusted-by-marquee-section--wide-",
+      "h": 168,
+      "pt": "32px",
+      "pb": "32px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 766
+    },
+    {
+      "classes": "bg-surface px-6 pb-20",
+      "h": 478,
+      "pt": "0px",
+      "pb": "80px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 934
+    },
+    {
+      "classes": "bg-surface px-6 pb-16 lg:pb-20",
+      "h": 720,
+      "pt": "0px",
+      "pb": "80px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 1412
+    },
+    {
+      "classes": "bg-surface px-4 py-10 sm:px-6 sm:py-14 lg:py-18",
+      "h": 1944,
+      "pt": "72px",
+      "pb": "72px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 2132
+    },
+    {
+      "classes": "overflow-hidden rounded-t-[3rem] bg-[#E5D6FF] px-4 pt-16 pb-",
+      "h": 784,
+      "pt": "96px",
+      "pb": "96px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(229, 214, 255)",
+      "radius": "48px 48px 0px 0px",
+      "y": 4076
+    },
+    {
+      "classes": "bg-surface px-6 pb-20",
+      "h": 770,
+      "pt": "0px",
+      "pb": "80px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 4859
+    },
+    {
+      "classes": "bg-surface px-6 pb-24",
+      "h": 786,
+      "pt": "0px",
+      "pb": "96px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 5629
+    },
+    {
+      "classes": "testimonials-section",
+      "h": 3357,
+      "pt": "0px",
+      "pb": "112px",
+      "px": "16px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 6414
+    },
+    {
+      "classes": "bg-surface px-6 pt-8 pb-24 md:pt-14 md:pb-28",
+      "h": 474,
+      "pt": "56px",
+      "pb": "112px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 9771
+    },
+    {
+      "classes": "bg-surface px-4 pb-4 sm:px-6 sm:pb-6",
+      "h": 667,
+      "pt": "0px",
+      "pb": "24px",
+      "px": "24px",
+      "maxW": "none",
+      "bg": "rgb(255, 255, 255)",
+      "radius": "0px",
+      "y": 10245
+    }
+  ]
+}

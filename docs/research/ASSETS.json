@@ -1,0 +1,659 @@
+{
+  "images": [
+    {
+      "src": "https://www.tedy.app/logo.svg",
+      "alt": "Tedy",
+      "w": 1757,
+      "h": 531,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/megaphone-iso-color.BtitRbJ9_24O5zz.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/heart-iso-color.Ce13ZpCW_uXRyX.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/explorer-iso-color.CIvXxq8j_ZV1E8D.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/3dicons-toggle-dynamic-color.cYr2z_1s_Z1cdNml.webp",
+      "alt": "",
+      "w": 500,
+      "h": 500,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/3dicons-flash-dynamic-color.Cm_IBBTs_Z1dC0D5.webp",
+      "alt": "",
+      "w": 500,
+      "h": 500,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/3dicons-travel-dynamic-color.CehqdmAH_1wJLlc.webp",
+      "alt": "",
+      "w": 500,
+      "h": 500,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/target-iso-color.Cf0ESi6-_Z2uFODj.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/thumb-up-iso-color.Ul6NqHQG_ZWV2Lv.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/flag-iso-color.CFs5iGMJ_Z1QMjFA.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/mic-iso-color.YsTDsNl7_Z24H7FN.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/explorer-iso-color.CIvXxq8j_ZV1E8D.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/pencil-iso-color.DBAdDAsx_1DbBEF.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/megaphone-iso-color.BtitRbJ9_24O5zz.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/heart-iso-color.Ce13ZpCW_uXRyX.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/explorer-iso-color.CIvXxq8j_ZV1E8D.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/3dicons-toggle-dynamic-color.cYr2z_1s_Z1cdNml.webp",
+      "alt": "",
+      "w": 500,
+      "h": 500,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/3dicons-flash-dynamic-color.Cm_IBBTs_Z1dC0D5.webp",
+      "alt": "",
+      "w": 500,
+      "h": 500,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/3dicons-travel-dynamic-color.CehqdmAH_1wJLlc.webp",
+      "alt": "",
+      "w": 500,
+      "h": 500,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/target-iso-color.Cf0ESi6-_Z2uFODj.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/thumb-up-iso-color.Ul6NqHQG_ZWV2Lv.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/flag-iso-color.CFs5iGMJ_Z1QMjFA.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/mic-iso-color.YsTDsNl7_Z24H7FN.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/explorer-iso-color.CIvXxq8j_ZV1E8D.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/pencil-iso-color.DBAdDAsx_1DbBEF.webp",
+      "alt": "",
+      "w": 2400,
+      "h": 2400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/header1.DNkqQzBN_PQt7b.webp",
+      "alt": "Happy employees",
+      "w": 1128,
+      "h": 1400,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/header2.CpcvJOJK_Zl6AID.webp",
+      "alt": "Employee smiling",
+      "w": 548,
+      "h": 341,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/header3.DnQRFToh_qJYAQ.webp",
+      "alt": "Team together",
+      "w": 548,
+      "h": 1028,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/ADM%20Aeroports%20de%20Montreal.CrHNYq6u.png",
+      "alt": "Aéroports de Montréal",
+      "w": 0,
+      "h": 0,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Norsefell.8bXY2qVj.png",
+      "alt": "Norsefell",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Sushi%20Shop.CRgKonTY.png",
+      "alt": "Sushi Shop",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/thirdbridge.B4cc-gmC.png",
+      "alt": "Thirdbridge",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/St%20Hubert.k4GTWWVX.png",
+      "alt": "St Hubert",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/jcip.DYZTvNyn.png",
+      "alt": "Jean Coutu L'Île-Perrot",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Eros%20et%20Compagnie.C-MEn5mP.png",
+      "alt": "Eros et Compagnie",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/FoodHero.CqvD9CvC.png",
+      "alt": "FoodHero",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/camelia.Cd9fr_oR.png",
+      "alt": "Camellia Sinensis",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Spectrum.DJ2ZTfWl.png",
+      "alt": "Spectrum",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Airports%20Council%20International.CBCAmwVK.png",
+      "alt": "Airports Council International",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Oatbox.DEzGwnHX.png",
+      "alt": "Oatbox",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/CAA%20Niagara.DKJy9_b-.png",
+      "alt": "CAA Niagara",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Flipp.JoMadgvw.png",
+      "alt": "Flipp",
+      "w": 0,
+      "h": 0,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/ADM%20Aeroports%20de%20Montreal.CrHNYq6u.png",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Norsefell.8bXY2qVj.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Sushi%20Shop.CRgKonTY.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/thirdbridge.B4cc-gmC.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/St%20Hubert.k4GTWWVX.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/jcip.DYZTvNyn.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Eros%20et%20Compagnie.C-MEn5mP.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/FoodHero.CqvD9CvC.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/camelia.Cd9fr_oR.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Spectrum.DJ2ZTfWl.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Airports%20Council%20International.CBCAmwVK.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Oatbox.DEzGwnHX.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/CAA%20Niagara.DKJy9_b-.png",
+      "alt": "",
+      "w": 400,
+      "h": 160,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/Flipp.JoMadgvw.png",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/graph_en.CBzxgqfy_1GsE1x.webp",
+      "alt": "Graph showing Tedy wellness and spend optimization outcomes.",
+      "w": 2510,
+      "h": 1412,
+      "position": "static",
+      "borderRadius": "24px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/choose_categories_en.C5Ga-0vf_2rfPbC.webp",
+      "alt": "Illustration showing a benefits setup with selected employee categories.",
+      "w": 1128,
+      "h": 1128,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/entertainment.9VnKiFjY.webp",
+      "alt": "Two people laughing while wearing VR headsets.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/consultation.DZH52bZM.webp",
+      "alt": "A woman relaxing on a couch during a consultation session.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/bike.CMfx1l_b.webp",
+      "alt": "A cyclist riding on a winding road.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/massage.CSQbpVq0.webp",
+      "alt": "A hot stone massage in progress.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/dog.CarxO_20.webp",
+      "alt": "A person hugging a white dog outdoors.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/dentist.C_5GMm6r.webp",
+      "alt": "A dental procedure being performed with gloves and tools.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/friends.C-iCcoYy.webp",
+      "alt": "Two coworkers smiling on a couch while using a laptop together.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/food.C4R1dIhY.webp",
+      "alt": "A plated meal surrounded by ingredients on a table.",
+      "w": 1080,
+      "h": 1080,
+      "position": "static",
+      "borderRadius": "32px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/employers.ioQ9Z_YZ_Z28R9wx.webp",
+      "alt": "Two coworkers standing by a desk and discussing benefits in a bright office.",
+      "w": 1128,
+      "h": 1128,
+      "position": "static",
+      "borderRadius": "44.8px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/your_categories_en.BH0h54i-.svg",
+      "alt": "Your Categories card showing selected employee wellness categories.",
+      "w": 188,
+      "h": 209,
+      "position": "static",
+      "borderRadius": "24px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/employees.x6E2FkBC_1fQ12w.webp",
+      "alt": "Two employees sitting on a couch and reviewing benefits together on a laptop.",
+      "w": 1128,
+      "h": 1128,
+      "position": "static",
+      "borderRadius": "44.8px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/claims_en.CclGi2k7.svg",
+      "alt": "Claims card showing reimbursement amounts and statuses.",
+      "w": 180,
+      "h": 186,
+      "position": "static",
+      "borderRadius": "24px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/stay22.CnxPYn5G.jpeg",
+      "alt": "Andrew Lockhead smiling in front of a brick wall.",
+      "w": 800,
+      "h": 800,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/stay22_logo.pYndAm5f.svg",
+      "alt": "Stay22 logo",
+      "w": 198,
+      "h": 132,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/oatbox.BbUbSyfG.jpeg",
+      "alt": "A range of Oatbox products displayed on a light table.",
+      "w": 800,
+      "h": 1000,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/oatbox_logo.CVVKwj_b.svg",
+      "alt": "Oatbox logo",
+      "w": 198,
+      "h": 132,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/thirdbridge.i3mnV_RH.jpg",
+      "alt": "Emilie St-Aubin posing in front of a dark blue background.",
+      "w": 1282,
+      "h": 1119,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/thirdbridge_logo.Bo5UpkIt.svg",
+      "alt": "Thirdbridge logo",
+      "w": 198,
+      "h": 132,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/portrait.DDA4Ktvo.webp",
+      "alt": "Jean Coutu L'Île-Perrot branch manager Jonathan Carrier inside the pharmacy.",
+      "w": 800,
+      "h": 1000,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/666067355e51857e9244c639_jcip%20(1).CNF3-Wig.svg",
+      "alt": "Jean Coutu L'Île-Perrot logo",
+      "w": 144,
+      "h": 96,
+      "position": "static",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "https://www.tedy.app/_astro/lesaffaires.DJPqiRHS.svg",
+      "alt": "",
+      "w": 160,
+      "h": 106,
+      "position": "relative",
+      "borderRadius": "0px"
+    },
+    {
+      "src": "data:image/svg+xml,%3csvg%20width='160'%20height='106'%20viewBox='0%200%20160%20106'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M148%2032.0205H12V74.98H148V32.0205ZM48.6423%2051.8459V58.7149C48.6423%2058.9056%2048.6422%2059.0902%2048.6422%2059.2688C48.6411%2062.7248%2048.6408%2063.9684%2049.0558%2065.6067H44.3463C44.3367%2065.5345%2044.324%2065.4471%2044.31%2065.3505C44.2573%2064.9863%2044.1855%2064.4911%2044.1855%2064.1824C43.6801%2065.1932%2042.3707%2065.8824%2040.9463%2065.8824C38.0977%2065.8824%2036.4436%2064.2284%2036.4436%2060.9892C36.4436%2057.8419%2038.0517%2056.3027%2041.1761%2055.223C43.2896%2054.5108%2043.9098%2053.9135%2043.9098%2052.65V52.0986C43.9098%2051.3176%2043.6112%2050.8351%2042.9909%2050.8351C42.3707%2050.8351%2042.0261%2051.2946%2042.0261%2052.0986V53.3392H37.2477V51.8459C37.2477%2048.5378%2039.1544%2046.6081%2042.945%2046.6081C46.7126%2046.6081%2048.6423%2048.423%2048.6423%2051.8459ZM42.4855%2061.7013C43.2436%2061.7013%2043.749%2061.1959%2043.749%2060.0703H43.772V57.5203C43.772%2057.5203%2043.3355%2057.8189%2042.8761%2058.0027C41.6815%2058.4622%2041.2909%2059.0135%2041.2909%2060.323C41.2909%2061.1959%2041.7504%2061.7013%2042.4855%2061.7013ZM50.4801%2052.0297C50.4801%2048.6297%2052.6626%2046.6311%2056.4531%2046.6311C60.2207%2046.6311%2062.4261%2048.6297%2062.4261%2052.0297V53.3392H57.372V52.2135C57.372%2051.3865%2057.0734%2050.904%2056.4531%2050.904C55.8328%2050.904%2055.5342%2051.3865%2055.5342%2052.2135V60.323C55.5342%2061.15%2055.8328%2061.6324%2056.4531%2061.6324C57.0734%2061.6324%2057.372%2061.15%2057.372%2060.323V59.1973H62.4261V60.5067C62.4261%2063.9297%2060.2436%2065.9284%2056.4531%2065.9284C52.6855%2065.9284%2050.4801%2063.9297%2050.4801%2060.5067V52.0297ZM63.4369%2046.9067H64.9761V41.1635H70.0301V46.9067H72.7639V51.2027H70.0301V59.5189C70.0301%2061.0811%2070.949%2061.5176%2072.7639%2061.3338V65.6297C67.2963%2065.9973%2064.9761%2064.4581%2064.9761%2059.8865V51.2027H63.4369V46.9067ZM115.792%2046.9067H117.331V41.1635H122.386V46.9067H125.119V51.2027H122.386V59.5189C122.386%2061.0811%20123.304%2061.5176%20125.119%2061.3338V65.6297C119.652%2065.9973%20117.331%2064.4581%20117.331%2059.8865V51.2027H115.792V46.9067ZM80.5747%2061.6324C81.195%2061.6324%2081.6544%2061.15%2081.6544%2060.323V46.9067H86.7085V65.6297H81.7693V64.4581C81.2639%2065.2851%2080.1842%2065.9054%2079.0355%2065.9054C76.095%2065.9054%2074.4409%2064.1594%2074.4409%2060.6676V46.9067H79.495V60.323C79.495%2061.15%2079.9545%2061.6324%2080.5747%2061.6324ZM100.4%2051.8459V58.7149C100.4%2059.0565%20100.4%2059.3781%20100.4%2059.6816C100.396%2062.8271%20100.395%2064.0354%20100.814%2065.6067H96.1045C96.0948%2065.5345%2096.0822%2065.4471%2096.0682%2065.3505C96.0154%2064.9863%2095.9436%2064.4911%2095.9436%2064.1824C95.4382%2065.1932%2094.1288%2065.8824%2092.7045%2065.8824C89.8558%2065.8824%2088.2018%2064.2284%2088.2018%2060.9892C88.2018%2057.8419%2089.8099%2056.3027%2092.9342%2055.223C95.0477%2054.5108%2095.668%2053.9135%2095.668%2052.65V52.0986C95.668%2051.3176%2095.3693%2050.8351%2094.7491%2050.8351C94.1288%2050.8351%2093.7842%2051.2946%2093.7842%2052.0986V53.3392H89.0058V51.8459C89.0058%2048.5378%2090.9126%2046.6081%2094.7031%2046.6081C98.4707%2046.6081%20100.4%2048.423%20100.4%2051.8459ZM94.2436%2061.7013C95.0017%2061.7013%2095.5072%2061.1959%2095.5072%2060.0703H95.5301V57.5203C95.5301%2057.5203%2095.0936%2057.8189%2094.6342%2058.0027C93.4396%2058.4622%2093.049%2059.0135%2093.049%2060.323C93.049%2061.1959%2093.5085%2061.7013%2094.2436%2061.7013ZM107.453%2041.1865H102.399V65.6297H107.453V41.1865ZM114.529%2041.1865H109.475V45.4365H114.529V41.1865ZM114.529%2046.9067H109.475V65.6067H114.529V46.9067ZM133.987%2045H130.265L132.471%2041.1865H137.548L133.987%2045ZM126.636%2052.0297C126.636%2048.6297%20128.933%2046.6311%20132.723%2046.6311C136.491%2046.6311%20138.811%2048.6297%20138.811%2052.0527V57.5662H131.69V60.323C131.69%2061.15%20132.103%2061.6324%20132.723%2061.6324C133.344%2061.6324%20133.757%2061.15%20133.757%2060.323V59.1973H138.811V60.5067C138.811%2063.9297%20136.514%2065.9284%20132.723%2065.9284C128.956%2065.9284%20126.636%2063.9297%20126.636%2060.5067V52.0297ZM131.667%2052.2365V54.4419H133.734V52.2365C133.734%2051.4094%20133.321%2050.927%20132.7%2050.927C132.08%2050.927%20131.667%2051.4094%20131.667%2052.2365ZM30.8612%2045.7811V41.1865H35.8463V45.7811C35.7315%2048.9054%2033.8247%2050.5365%2030.8612%2050.5594V48.2392C32.4463%2048.2392%2033.2734%2047.527%2033.3653%2045.7811H30.8612ZM30.8612%2065.6067H21.1436V41.1865H26.2207V61.3338H30.8612V65.6067Z'%20fill='black'/%3e%3c/svg%3e",
+      "alt": "",
+      "w": 160,
+      "h": 106,
+      "position": "relative",
+      "borderRadius": "0px"
+    }
+  ],
+  "videos": [],
+  "bgImages": [
+    {
+      "el": "DIV.pointer-events-none",
+      "bg": "linear-gradient(to top, rgb(231, 214, 255) 0%, oklab(0.902604 0.0325668 -0.0481643 / 0.85) 50%, rgba(0, 0, 0, 0) 100%)"
+    },
+    {
+      "el": "DIV.footer-card",
+      "bg": "radial-gradient(circle at 52% 18%, rgba(147, 51, 234, 0.18), rgba(0, 0, 0, 0) 34%), radial-gradient(circle at 22% 82%, rgba(253, 23, 116, 0.16), rgba(0, 0, 0, 0) 36%), radial-gradient(circle at 72% 94"
+    }
+  ],
+  "svgCount": 46,
+  "favicons": [
+    "https://www.tedy.app/favicon.svg"
+  ]
+}

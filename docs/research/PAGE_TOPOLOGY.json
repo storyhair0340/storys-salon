@@ -1,0 +1,19 @@
+{
+  "pageHeight": 10912,
+  "sections": [
+    {
+      "tag": "nav",
+      "id": null,
+      "classes": "tedy-site-nav relative z-30 bg-white",
+      "top": 0,
+      "height": 80,
+      "position": "sticky",
+      "zIndex": "50",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "firstText": "Overview Tedy at a glance A concise tour of the platform, the member journey, and the core value proposition behind Tedy",
+      "imgCount": 25,
+      "svgCount": 20,
+      "videoCount": 0
+    }
+  ]
+}
