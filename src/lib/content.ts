@@ -8,6 +8,11 @@ export const SITE_URL = "https://www.storys-salon.com";
 // 예: "abcdef1234567890abcdef1234567890abcdef12"
 export const NAVER_SITE_VERIFICATION = "";
 
+// Bing 웹마스터 도구 소유확인 코드 — bing.com/webmasters에서 "메타 태그" 방식으로 받은
+// content 값만 넣으면 <meta name="msvalidate.01" ...> 태그가 자동으로 생성됩니다.
+// (Search Console에서 가져오기로 인증했다면 이 값은 필요 없습니다)
+export const BING_SITE_VERIFICATION = "";
+
 export const CONTACT = {
   phone: "044-417-6200",
   phoneHref: "tel:0444176200",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Great_Vibes } from "next/font/google";
-import { NAVER_SITE_VERIFICATION, SITE_URL } from "@/lib/content";
+import { BING_SITE_VERIFICATION, NAVER_SITE_VERIFICATION, SITE_URL } from "@/lib/content";
 import { StructuredData } from "@/components/StructuredData";
 import "./globals.css";
 
@@ -53,9 +53,12 @@ export const metadata: Metadata = {
     description: "헤어·네일·아트메이크업·속눈썹 전문. 30년 경력 원장 1:1 맞춤 시술.",
     images: ["/images/2.jpeg"],
   },
-  verification: NAVER_SITE_VERIFICATION
-    ? { other: { "naver-site-verification": NAVER_SITE_VERIFICATION } }
-    : undefined,
+  verification: (() => {
+    const other: Record<string, string> = {};
+    if (NAVER_SITE_VERIFICATION) other["naver-site-verification"] = NAVER_SITE_VERIFICATION;
+    if (BING_SITE_VERIFICATION) other["msvalidate.01"] = BING_SITE_VERIFICATION;
+    return Object.keys(other).length ? { other } : undefined;
+  })(),
 };
 
 export default function RootLayout({
