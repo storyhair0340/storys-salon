@@ -3,6 +3,11 @@ import type { CategoryChip, Director, Review, ServiceCard, WhyCard } from "@/typ
 // 사이트 정식 URL — 새 커스텀 도메인이 생기면 이 한 줄만 교체하면 SEO 메타·robots·sitemap·JSON-LD에 일괄 반영됩니다.
 export const SITE_URL = "https://www.storys-salon.com";
 
+// 네이버 서치어드바이저 소유확인 코드 — searchadvisor.naver.com에서 "HTML 태그" 방식으로 받은
+// content 값만 넣으면 <meta name="naver-site-verification" ...> 태그가 자동으로 생성됩니다.
+// 예: "abcdef1234567890abcdef1234567890abcdef12"
+export const NAVER_SITE_VERIFICATION = "";
+
 export const CONTACT = {
   phone: "044-417-6200",
   phoneHref: "tel:0444176200",
