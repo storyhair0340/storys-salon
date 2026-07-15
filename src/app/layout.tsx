@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Great_Vibes } from "next/font/google";
 import { NAVER_SITE_VERIFICATION, SITE_URL } from "@/lib/content";
 import { StructuredData } from "@/components/StructuredData";
@@ -67,6 +68,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <StructuredData />
         {children}
+        <Analytics />
       </body>
     </html>
   );
