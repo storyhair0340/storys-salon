@@ -1,7 +1,7 @@
 import type { CategoryChip, Director, Review, ServiceCard, WhyCard } from "@/types/content";
 
 // 사이트 정식 URL — 새 커스텀 도메인이 생기면 이 한 줄만 교체하면 SEO 메타·robots·sitemap·JSON-LD에 일괄 반영됩니다.
-export const SITE_URL = "https://story-s-salon-v2.vercel.app";
+export const SITE_URL = "https://www.storys-salon.com";
 
 export const CONTACT = {
   phone: "044-417-6200",
