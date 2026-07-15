@@ -8,15 +8,17 @@
 
 웹사이트는 **① 소스 파일**(이 폴더)과 **② 온라인 서비스 계정**의 조합입니다. 파일만 넘기면 사이트를 새로 만들 수는 있지만, 지금 살아있는 사이트·문의 폼·도메인은 아래 계정들에 묶여 있습니다.
 
-| 항목 | 현재 위치 | 인계 시 필요한 조치 |
+| 항목 | 현재 위치 | 상태 |
 |---|---|---|
-| **소스 코드** | GitHub: https://github.com/zukunft21/storys-salon | 이미 업로드 완료 ✅ |
-| **호스팅(배포)** | Vercel 프로젝트 `story-s-salon-v2` | 클라이언트 Vercel 계정으로 **이전**하거나, 코드로 재배포 |
-| **문의 폼 수신** | Formspree 폼 `mjgqzpya` | 클라이언트 이메일 계정으로 소유권 이전(또는 신규 폼 발급) |
-| **도메인** | (구매 예정 — Cloudflare) | 클라이언트 Cloudflare 계정으로 구매 |
-| **네이버 플레이스 / 인스타** | 매장 소유 (헤어 1584649819, 네일 1807431761, @hairpark0340) | 이미 매장 소유 — 조치 불필요 |
+| **소스 코드** | GitHub: https://github.com/storyhair0340/storys-salon (공개 저장소) | ✅ 클라이언트 계정 완료 |
+| **호스팅(배포)** | Vercel, 클라이언트 계정(storyhair0340) `storys-salon` 프로젝트 | ✅ 클라이언트 계정 완료 |
+| **도메인** | Cloudflare, 클라이언트 계정 — `storys-salon.com` | ✅ 구매·연결 완료 |
+| **문의 폼 수신** | Formspree 폼 `mjgqzpya` | ✅ 클라이언트 계정 |
+| **네이버 플레이스 / 인스타** | 매장 소유 (헤어 1584649819, 네일 1807431761, @hairpark0340) | ✅ 매장 소유 |
+| **Google Search Console** | 클라이언트 계정, `storys-salon.com` 도메인 속성 등록·인증·사이트맵 제출 완료 | ✅ 완료 |
+| **Google 비즈니스 프로필** | 클라이언트 계정으로 생성, 인증 진행 중 | ⏳ 진행 중 (아래 6-1 참고) |
 
-> **핵심:** 진짜 "넘겨주기"라면 위 ②·③·④를 **클라이언트 계정으로 옮겨야** 나중에 개발자 도움 없이도 운영됩니다. 계속 대신 운영해 줄 거라면 파일 + 결과물만 전달해도 됩니다.
+> **완전 독립 운영 체계 완성.** 개발자(zukunft21) 계정 없이도 클라이언트 스스로 사이트가 계속 운영됩니다. 코드 수정이 필요하면 개발자가 `storyhair0340/storys-salon` 저장소에 push → Vercel 자동 배포.
 
 ---
 
@@ -94,24 +96,42 @@ vercel deploy --prod
 ## 6. 아직 안 된 것 (준비되면 연결)
 
 - **카카오톡 채널** — 개설 후 URL을 `CONTACT.kakaoChannel`에 넣으면 폼의 사진 안내 + 우측 카카오 버튼이 자동으로 켜짐 (현재는 숨김)
-- **새 도메인** — 아래 7번 참고
-- **구글/네이버 서치콘솔 등록** — 소유확인 메타태그를 `src/app/layout.tsx`의 `metadata`에 추가하면 검색 색인·통계 가능
+
+### 6-1. Google 비즈니스 프로필 — 소유권 이전 대기 중 (2026-07-15 시작)
+
+- 클라이언트 Google 계정(story.hair0340@gmail.com)으로 프로필 생성, 인증(우편엽서/영상통화) 진행 중
+- **Google 정책상 신규 프로필은 생성 후 7일이 지나야 "기본 소유자" 지정(소유권 이전)이 가능** — 그전엔 이전 시도 시 에러 발생
+- 개발자(zukunft21) 계정이 임시로 이 프로필에 접근 권한을 갖고 있음
+- **7일 경과 후 할 일**:
+  1. business.google.com → 프로필 → **사용자 및 액세스 권한**
+  2. 클라이언트 계정(story.hair0340@gmail.com) 행 → **"기본 소유자로 지정"**
+  3. 개발자 본인 행 → **"액세스 삭제"** (⚠️ "비즈니스 프로필 삭제"와 다른 메뉴이니 절대 혼동 금지 — 그건 전체 삭제됨)
+- 완료되면 사이트 `CONTACT.googleBusiness`에 프로필 링크(`https://maps.app.goo.gl/...` 또는 `https://g.page/...` 형태)를 넣으면 구조화 데이터(sameAs)·오시는 길 링크에 자동 반영됨 (현재는 빈 값, `src/lib/content.ts`)
+- 업체 설명(750자 이내, URL·전화번호 금지)은 이미 작성해 등록함: 헤어·네일·속눈썹·반영구 서비스, 분야별 전담 원장(헤어 30년+, 네일/속눈썹 11년+), 정찰제·예약제, 영업시간 포함
+
+### 6-2. Google Search Console — 완료 (2026-07-15)
+
+- `storys-salon.com` 도메인 속성 등록, Cloudflare-Google 연동 기능으로 DNS TXT 레코드 자동 인증 완료
+- 사이트맵 제출 완료 (`https://www.storys-salon.com/sitemap.xml` — 전체 URL로 제출해야 함, 상대경로 `sitemap.xml`만 넣으면 apex 리다이렉트 때문에 인식 안 될 수 있음)
+- 홈페이지 URL 검사 → 색인 생성 요청 진행
+- 실제 키워드 검색 노출까지는 새 도메인 특성상 몇 주 소요 예상 (정상)
 
 ---
 
-## 7. 도메인 연결 (Cloudflare)
+## 7. 도메인 연결 (완료됨 — 참고용 기록)
 
-1. 클라이언트 Cloudflare 계정에서 도메인 구매 (`.com` 등 — Cloudflare는 `.kr`은 취급 안 함)
-2. Vercel 프로젝트 → Settings → Domains 에서 도메인 추가
-3. Vercel이 알려주는 DNS 레코드를 Cloudflare DNS에 등록:
-   - apex(예: `example.com`) → A 레코드 `76.76.21.21`
-   - `www` → CNAME `cname.vercel-dns.com`
-   - Cloudflare 프록시(주황 구름)는 **끄고 DNS-only(회색)** 권장
-4. `src/lib/content.ts`의 `SITE_URL`을 새 도메인으로 교체 후 재배포
+Cloudflare에서 `storys-salon.com` 구매 후 아래로 연결 완료:
+- A 레코드(`@`) → `76.76.21.21`, DNS 전용(회색 구름)
+- CNAME(`www`) → `cname.vercel-dns.com`, DNS 전용(회색 구름)
+- Vercel 프로젝트에 도메인 추가 → apex는 www로 308 리다이렉트
+- `SITE_URL`(`src/lib/content.ts`)을 `https://www.storys-salon.com`으로 교체 반영 완료
+
+같은 방식으로 향후 도메인을 또 바꾸게 되면: Vercel Domains에 추가 → Cloudflare DNS 레코드 등록(DNS 전용 권장) → `SITE_URL` 교체 후 재배포.
 
 ---
 
 ## 8. 현재 라이브 주소
 
-- 사이트: https://story-s-salon-v2.vercel.app
-- 이전 버전(참고용): https://story-s-salon.vercel.app
+- **정식 사이트: https://www.storys-salon.com**
+- Vercel 기본 주소(백업용): https://storys-salon.vercel.app
+- 참고— 예전 데모 버전(더 이상 사용 안 함): https://story-s-salon-v2.vercel.app, https://story-s-salon.vercel.app
