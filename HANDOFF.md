@@ -10,7 +10,7 @@
 
 | 항목 | 현재 위치 | 인계 시 필요한 조치 |
 |---|---|---|
-| **소스 코드** | 이 폴더 (`story-s-v2`) | zip 또는 GitHub로 전달 |
+| **소스 코드** | GitHub: https://github.com/zukunft21/storys-salon | 이미 업로드 완료 ✅ |
 | **호스팅(배포)** | Vercel 프로젝트 `story-s-salon-v2` | 클라이언트 Vercel 계정으로 **이전**하거나, 코드로 재배포 |
 | **문의 폼 수신** | Formspree 폼 `mjgqzpya` | 클라이언트 이메일 계정으로 소유권 이전(또는 신규 폼 발급) |
 | **도메인** | (구매 예정 — Cloudflare) | 클라이언트 Cloudflare 계정으로 구매 |
@@ -41,7 +41,29 @@ vercel deploy --prod
 
 ---
 
-## 3. 내용(텍스트·가격·링크) 수정하는 법
+## 3. GitHub 저장소 & 자동 배포
+
+- **저장소**: https://github.com/zukunft21/storys-salon (main 브랜치)
+- 소스 코드는 GitHub에 올라가 있어 버전 관리·백업이 됩니다.
+- **Vercel과 연동하면 `git push`만으로 자동 배포**됩니다 (지금은 CLI로 수동 배포 중):
+  1. Vercel 대시보드 → 해당 프로젝트 → Settings → Git → **Connect Git Repository**
+  2. `zukunft21/storys-salon` 선택
+  3. 이후로는 이 저장소의 main 브랜치에 push하면 Vercel이 자동으로 빌드·배포함
+- Git 계정이 없어도(코드를 직접 안 건드려도) 사이트는 그대로 작동합니다 — GitHub는 "수정할 때" 필요한 창구입니다.
+
+### Vercel 계정, 고객이 꼭 필요한가?
+운영을 **누가 계속 맡느냐**에 따라 다릅니다.
+
+| 상황 | 고객 Vercel 계정 필요? |
+|---|---|
+| 개발자(현재 관리자)가 계속 배포·유지보수 | ❌ 불필요 — 고객은 사이트 URL만 사용 |
+| 고객이 직접 도메인 연결·수정 요청을 하고 싶음 | ✅ 필요 — Vercel 프로젝트를 고객 계정(팀)으로 이전(Transfer) 필요 |
+
+프로젝트 이전은 Vercel 대시보드 → Settings → **Transfer Project**에서 진행하며, 받는 쪽도 Vercel 계정(무료 플랜 가능)이 있어야 합니다.
+
+---
+
+## 4. 내용(텍스트·가격·링크) 수정하는 법
 
 거의 모든 문구·가격·연락처·링크는 **한 파일**에 모여 있습니다:
 
@@ -58,7 +80,7 @@ vercel deploy --prod
 
 ---
 
-## 4. 문의 폼 (중요)
+## 5. 문의 폼 (중요)
 
 - 위치: `src/components/ContactForm.tsx`
 - 방식: **Formspree** (무료, 월 50건), 폼 ID **`mjgqzpya`**
@@ -69,15 +91,15 @@ vercel deploy --prod
 
 ---
 
-## 5. 아직 안 된 것 (준비되면 연결)
+## 6. 아직 안 된 것 (준비되면 연결)
 
 - **카카오톡 채널** — 개설 후 URL을 `CONTACT.kakaoChannel`에 넣으면 폼의 사진 안내 + 우측 카카오 버튼이 자동으로 켜짐 (현재는 숨김)
-- **새 도메인** — 아래 6번 참고
+- **새 도메인** — 아래 7번 참고
 - **구글/네이버 서치콘솔 등록** — 소유확인 메타태그를 `src/app/layout.tsx`의 `metadata`에 추가하면 검색 색인·통계 가능
 
 ---
 
-## 6. 도메인 연결 (Cloudflare)
+## 7. 도메인 연결 (Cloudflare)
 
 1. 클라이언트 Cloudflare 계정에서 도메인 구매 (`.com` 등 — Cloudflare는 `.kr`은 취급 안 함)
 2. Vercel 프로젝트 → Settings → Domains 에서 도메인 추가
@@ -89,7 +111,7 @@ vercel deploy --prod
 
 ---
 
-## 7. 현재 라이브 주소
+## 8. 현재 라이브 주소
 
 - 사이트: https://story-s-salon-v2.vercel.app
 - 이전 버전(참고용): https://story-s-salon.vercel.app
