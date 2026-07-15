@@ -17,6 +17,9 @@ export const CONTACT = {
   // 카카오톡 채널 채팅 URL — 채널 개설 후 입력하면 폼에 "사진 보내기" 버튼이 켜집니다.
   // 예: "https://pf.kakao.com/_xxxxxxx/chat"
   kakaoChannel: "",
+  // 구글 비즈니스 프로필 URL — 개설 후 입력하면 구조화 데이터(sameAs)·오시는 길에 자동 반영됩니다.
+  // 예: "https://g.page/r/xxxxxxxxxxxxx" 또는 "https://maps.app.goo.gl/xxxxxxxx"
+  googleBusiness: "",
   address: "세종특별자치시 도움3로 105-2 2층 203호",
   addressNote: "종촌동 가재마을 7단지 건너편 새마을금고 2층",
   hours: "월–토 10:00 – 20:00",

@@ -39,7 +39,7 @@ const schema = {
     reviewCount: String(REVIEWS.length),
     bestRating: "5",
   },
-  sameAs: [CONTACT.instagram, CONTACT.naverMap],
+  sameAs: [CONTACT.instagram, CONTACT.naverMap, CONTACT.googleBusiness].filter(Boolean),
 };
 
 export function StructuredData() {

@@ -71,6 +71,11 @@ export function FooterCta() {
                 <a href={CONTACT.naverBooking} target="_blank" rel="noopener noreferrer" className="text-white/85 transition-colors hover:text-white">
                   네이버 예약 ↗
                 </a>
+                {CONTACT.googleBusiness && (
+                  <a href={CONTACT.googleBusiness} target="_blank" rel="noopener noreferrer" className="text-white/85 transition-colors hover:text-white">
+                    구글 지도 ↗
+                  </a>
+                )}
               </div>
             </div>
           </div>
