@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Reveal } from "@/components/Reveal";
 import { QuoteIcon } from "@/components/icons";
-import { REVIEWS } from "@/lib/content";
+import { CONTACT, REVIEWS } from "@/lib/content";
 
 export function Testimonials() {
   return (
@@ -53,6 +53,25 @@ export function Testimonials() {
             </div>
           ))}
         </div>
+
+        {/* 구글 리뷰 유도 CTA — 리뷰 0개 상태에서 초기 리뷰 확보용 */}
+        {CONTACT.googleReview && (
+          <Reveal className="relative z-10 mt-16 rounded-[2rem] border border-line/70 bg-quote-cream/40 px-8 py-10 text-center">
+            <p className="text-[18px] font-medium leading-snug">
+              오늘 방문이 만족스러우셨다면,
+              <br />
+              소중한 리뷰 한 줄 부탁드려요 🙏
+            </p>
+            <a
+              href={CONTACT.googleReview}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block rounded-full bg-pink px-6 py-3.5 text-[15px] text-white shadow-[0_14px_35px_-18px_rgba(253,23,116,0.6)] transition-all hover:-translate-y-px hover:brightness-95"
+            >
+              구글 리뷰 남기기 ↗
+            </a>
+          </Reveal>
+        )}
       </div>
     </section>
   );
