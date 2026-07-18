@@ -6,7 +6,7 @@ export const SITE_URL = "https://www.storys-salon.com";
 // 네이버 서치어드바이저 소유확인 코드 — searchadvisor.naver.com에서 "HTML 태그" 방식으로 받은
 // content 값만 넣으면 <meta name="naver-site-verification" ...> 태그가 자동으로 생성됩니다.
 // 예: "abcdef1234567890abcdef1234567890abcdef12"
-export const NAVER_SITE_VERIFICATION = "";
+export const NAVER_SITE_VERIFICATION = "c909cff75dcd9aaa48119cc3a4bbbe31fed3ddae";
 
 // Bing 웹마스터 도구 소유확인 코드 — bing.com/webmasters에서 "메타 태그" 방식으로 받은
 // content 값만 넣으면 <meta name="msvalidate.01" ...> 태그가 자동으로 생성됩니다.
